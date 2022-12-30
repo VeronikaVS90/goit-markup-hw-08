@@ -1,0 +1,33 @@
+.footer-thumb {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-join {
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-thumb__networks {
+    margin-top: 20px;
+    justify-content: start;
+}
+
+.networks__link--secondary {
+    color: var(--white-color);
+    background-color: var(--icon-bg-color);
+
+    transition: background-color 250ms var(--timing-function);
+}
+
+.networks__item {
+    margin-right: 10px;
+    &:last-child {
+            margin-right: 0;
+        }
+}
+

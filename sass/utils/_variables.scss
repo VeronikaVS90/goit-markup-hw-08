@@ -1,0 +1,36 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --secondary-text-color: rgba(255, 255, 255, 0.6);
+    --accent-color: #2196f3;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --hero-bg-color: #c4c4c4;
+    --footer-bg-color: #2f303a;
+    --secondary-bg-color: #f5f4fa;
+    --btn-active-bg-color: #188ce8;
+    --border-line-color: #ececec;
+    --border-card-color: #eeeeee;
+    --icon-current-color: #afb1b8;
+    --icon-bg-color: rgba(255, 255, 255, 0.1);
+    --backdrop-color: rgba(0, 0, 0, 0.2);
+    --modal-btn-color: rgba(0, 0, 0, 0.1);
+    --modal-border-color: rgba(33, 33, 33, 0.2);
+    --modal-placeholder-color: rgba(117, 117, 117, 0.5);
+    --action-thumb-color: rgba(47, 48, 58, 0.8);
+    --portfolio-card-bg-color: rgba(33, 150, 243, 0.9);
+    --footer-border-color: rgba(255, 255, 255, 0.3);
+    --footer-input-color: rgba(255, 255, 255, 0.6);
+
+    --card-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    --primary-btn-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    --secondary-btn-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    --prtf-card-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+    --modal-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+
+    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
