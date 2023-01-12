@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <!-- Navigation-->
+    <!-- Шапка сторінки-->
     <header class="header">
       <div class="header__container">
         <a href="./index.html" class="logo"><span class="logo--accent">Web</span>Studio</a>
@@ -26,7 +26,6 @@
           data-menu-button
           aria-expanded="false"
         >
-          <!-- class="menu-button is-open" -->
           <svg
             class="menu-toggle__icon"
             width="40"
@@ -68,7 +67,7 @@
           </li>
         </ul>
       </div>
-      <!-- Mobile menu -->
+      <!-- Мобільне меню -->
       <div class="menu-container js-menu-container" id="mobile-menu">
         <button class="menu-toggle js-close-menu">
           <svg
@@ -117,6 +116,7 @@
         </ul>
       </div>
     </header>
+
     <main>
       <section class="projects-section">
         <div class="filter">
@@ -465,6 +465,7 @@
         </div>
       </section>
     </main>
+
     <!-- Footer -->
     <footer class="page-footer">
       <div class="page-footer__container">
@@ -532,7 +533,13 @@
         <div class="subscription">
           <p class="subscription__text">Підпишіться на розсилку</p>
           <form class="subscription__form">
-            <input class="subscription__input" name="user-email" type="email" placeholder="Email" />
+            <input
+              class="subscription__input"
+              name="user-email"
+              type="email"
+              placeholder="Email"
+              required
+            />
             <button class="subscription__button" type="submit">
               Підписатися
               <svg class="subscription__icon">
