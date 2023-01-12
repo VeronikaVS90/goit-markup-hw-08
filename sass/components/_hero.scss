@@ -7,11 +7,9 @@
     background-image: linear-gradient(to right,
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
-        url('../images/hero-mobile.jpg');
-    // url('../images/hero.jpg');
+        url('/images/smartphone/hero-mobimg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    // 480px 400px;
     background-position: center;
     text-align: center;
 
@@ -22,7 +20,7 @@
             background-image: linear-gradient(to right,
                     rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)),
-                url('../images/hero-mobile@2x.jpg');
+                url('/images/smartphone/hero-mobimg@2x.jpg');
         }
     }
 
@@ -32,9 +30,8 @@
         background-image: linear-gradient(to right,
                 rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)),
-            url('../images/hero-tablet.jpg');
+            url('/images/tablet/hero-tabimg.jpg');
         background-size: cover;
-        // background-size: 768px 400px;
 
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
@@ -43,7 +40,7 @@
                 background-image: linear-gradient(to right,
                         rgba(47, 48, 58, 0.4),
                         rgba(47, 48, 58, 0.4)),
-                    url('../images/hero-tablet@2x.jpg');
+                    url('/images/tablet/hero-tabimg@2x.jpg');
             }
         }
     }
@@ -55,9 +52,8 @@
         background-image: linear-gradient(to right,
                 rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)),
-            url('../images/hero.jpg');
+            url('/images/desktop/hero-deskimg.jpg');
         background-size: cover;
-        // background-size: 1600px 600px;
 
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
@@ -66,7 +62,7 @@
                 background-image: linear-gradient(to right,
                         rgba(47, 48, 58, 0.4),
                         rgba(47, 48, 58, 0.4)),
-                    url('../images/hero@2x.jpg');
+                    url('/images/desktop/hero-deskimg@2x.jpg');
             }
         }
     }
