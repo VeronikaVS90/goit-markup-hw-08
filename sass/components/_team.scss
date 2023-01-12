@@ -1,43 +1,77 @@
-.section-team {
-    padding-top: 94px;
-    padding-bottom: 94px;
+.team {
+    @extend %section;
+    background-color: $contentBackground;
 
-    background-color: var(--secondary-bg-color);
-}
+    &__title {
+        @extend %section-title;
+    }
 
-.team-list {
-    display: flex;
-}
+    &__list {
+        @extend %container;
+        @extend %list;
 
-.team-list__item {
-    margin-right: 30px;
-
-    background-color: var(--white-color);
-        box-shadow: var(--card-shadow);
-        border-radius: 0px 0px 4px 4px;
-    &:last-child {
-            margin-right: 0;
+        @media screen and (min-width:768px) {
+            flex-wrap: wrap;
+            gap: 30px;
         }
-}
 
-.team-list__content {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-}
+        @media screen and (min-width: 1200px) {
+            flex-wrap: nowrap;
+        }
+    }
 
-.team-list__title {
-    margin-bottom: 10px;
+    &__item {
+        background: $primaryBackground;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+            0px 1px 1px rgba(0, 0, 0, 0.14),
+            0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        text-align: center;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
 
-    color: var(--title-text-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-}
+        &:last-child {
+            margin-bottom: 0;
+        }
 
-.team-list__text {
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+        @media screen and (min-width:768px) {
+            width: 354px;
+            margin-bottom: 0;
+        }
+
+        @media screen and (min-width:1200px) {
+            width: 270px;
+        }
+    }
+
+    &__img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 30px;
+
+        @media screen and (min-width:768px) {
+            height: 374px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            height: 260px;
+        }
+    }
+
+    &__name {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+    }
+
+    &__direct {
+        margin-top: 0;
+        margin-bottom: 16px;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+    }
 }
