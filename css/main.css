@@ -1142,6 +1142,7 @@ ul {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  color: #757575;
 }
 
 .icons {
@@ -1303,7 +1304,6 @@ ul {
   gap: 30px;
 }
 .cards__item {
-  /* width: 370px; */
   width: 100%;
 }
 @media screen and (min-width: 768px) {
