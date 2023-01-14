@@ -448,11 +448,35 @@ ul {
     padding-bottom: 32px;
   }
 }
-.contacts-head__icon {
+.contacts-head__icon-mail {
+  width: 16px;
+  height: 12px;
   fill: currentColor;
   margin-right: 10px;
   padding: 0;
   margin-bottom: 0;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .contacts-head__icon-mail {
+    width: 14px;
+    height: 10px;
+    margin-right: 8px;
+  }
+}
+.contacts-head__icon-tel {
+  width: 10px;
+  height: 16px;
+  fill: currentColor;
+  margin-right: 10px;
+  padding: 0;
+  margin-bottom: 0;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .contacts-head__icon-tel {
+    width: 10px;
+    height: 14px;
+    margin-right: 8px;
+  }
 }
 
 .hero {
