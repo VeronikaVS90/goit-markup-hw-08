@@ -441,6 +441,11 @@ ul {
 .contacts-head__link:hover, .contacts-head__link:focus {
   color: #2196F3;
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .contacts-head__link {
+    display: flex;
+  }
+}
 @media screen and (min-width: 1200px) {
   .contacts-head__link {
     display: flex;
