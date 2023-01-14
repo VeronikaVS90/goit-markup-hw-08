@@ -52,18 +52,18 @@
             </li>
           </ul>
         </nav>
-        <ul class="contacts-head">
-          <li class="contacts-head__item">
-            <a href="mailto:info@devstudio.com" class="contacts-head__link">
-              <svg class="contacts-head__icon-mail">
+        <ul class="contacts-header">
+          <li class="contacts-header__item">
+            <a href="mailto:info@devstudio.com" class="contacts-header__link">
+              <svg class="contacts-header__icon-mail">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="contacts-head__item">
-            <a href="tel:+380961111111" class="contacts-head__link">
-              <svg class="contacts-head__icon-tel">
+          <li class="contacts-header__item">
+            <a href="tel:+380961111111" class="contacts-header__link">
+              <svg class="contacts-header__icon-tel">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11
@@ -133,62 +133,62 @@
         </button>
       </section>
 
-      <!-- Переваги -->
-      <section class="benefits">
+      <!-- Особливості -->
+      <section class="features">
         <h2 class="visually-hidden">Переваги</h2>
-        <ul class="benefits__list">
-          <li class="benefits__item">
-            <div class="benefits__icons-container">
-              <svg class="benefits__icon">
+        <ul class="features__list">
+          <li class="features__item">
+            <div class="features__icon-thumb">
+              <svg class="features__icon">
                 <use href="./images/icons.svg#icon-antenna"></use>
               </svg>
             </div>
-            <h3 class="benefits__title">Увага до деталей</h3>
-            <p class="benefits__text">
+            <h3 class="features__title">Увага до деталей</h3>
+            <p class="features__text">
               Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
             </p>
           </li>
-          <li class="benefits__item">
-            <div class="benefits__icons-container">
-              <svg class="benefits__icon">
+          <li class="features__item">
+            <div class="features__icon-thumb">
+              <svg class="features__icon">
                 <use href="./images/icons.svg#icon-clock"></use>
               </svg>
             </div>
-            <h3 class="benefits__title">Пунктуальність</h3>
-            <p class="benefits__text">
+            <h3 class="features__title">Пунктуальність</h3>
+            <p class="features__text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
             </p>
           </li>
-          <li class="benefits__item">
-            <div class="benefits__icons-container">
-              <svg class="benefits__icon">
+          <li class="features__item">
+            <div class="features__icon-thumb">
+              <svg class="features__icon">
                 <use href="./images/icons.svg#icon-diagram"></use>
               </svg>
             </div>
-            <h3 class="benefits__title">Планування</h3>
-            <p class="benefits__text">
+            <h3 class="features__title">Планування</h3>
+            <p class="features__text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li class="benefits__item">
-            <div class="benefits__icons-container">
-              <svg class="benefits__icon">
+          <li class="features__item">
+            <div class="features__icon-thumb">
+              <svg class="features__icon">
                 <use href="./images/icons.svg#icon-astronaut"></use>
               </svg>
             </div>
-            <h3 class="benefits__title">Сучасні технології</h3>
-            <p class="benefits__text">
+            <h3 class="features__title">Сучасні технології</h3>
+            <p class="features__text">
               Значимість цих проблем настільки очевидна, що реалізація планових завдань.
             </p>
           </li>
         </ul>
       </section>
 
-      <!--Чим займаємось-->
-      <section class="services">
-        <h2 class="services__title">Чим ми займаємося</h2>
-        <ul class="services__list">
-          <li class="services__item">
+      <!--Чим ми займаємося-->
+      <section class="activity">
+        <h2 class="activity__title">Чим ми займаємося</h2>
+        <ul class="activity__list">
+          <li class="activity__item">
             <img
               srcset="
                 ./images/desktop/typing-deskimg.jpg    1x,
@@ -196,20 +196,20 @@
               "
               src="./images/desktop/typing-deskimg.jpg"
               alt="Десктопні додатки"
-              class="services__img"
+              class="activity__img"
             />
-            <p class="services__text">Декстопні додатки</p>
+            <p class="activity__text">Декстопні додатки</p>
           </li>
-          <li class="services__item">
+          <li class="activity__item">
             <img
               srcset="./images/desktop/app-deskimg.jpg 1x, ./images/desktop/app-deskimg@2x.jpg 2x"
               src="./images/desktop/app-deskimg.jpg"
               alt="Мобільні додатки"
-              class="services__img"
+              class="activity__img"
             />
-            <p class="services__text">Мобільні додатки</p>
+            <p class="activity__text">Мобільні додатки</p>
           </li>
-          <li class="services__item">
+          <li class="activity__item">
             <img
               srcset="
                 ./images/desktop/design-deskimg.jpg    1x,
@@ -217,9 +217,9 @@
               "
               src="./images/desktop/design-deskimg.jpg"
               alt="Дизайнерські рішення"
-              class="services__img"
+              class="activity__img"
             />
-            <p class="services__text">Дизайнерські рішення</p>
+            <p class="activity__text">Дизайнерські рішення</p>
           </li>
         </ul>
       </section>
@@ -520,10 +520,11 @@
         </ul>
       </section>
     </main>
+
     <!-- Footer -->
     <footer class="page-footer">
       <div class="page-footer__container">
-        <!-- Контактні дані -->
+        <!-- Контакти -->
         <div class="address">
           <a href="./index.html" class="logo logo--footer">
             <span class="logo--accent">Web</span>Studio</a
@@ -549,6 +550,7 @@
             </ul>
           </address>
         </div>
+
         <!-- Приєднуйтесь -->
         <div class="join">
           <p class="join__text">Приєднуйтесь</p>
@@ -583,6 +585,7 @@
             </li>
           </ul>
         </div>
+
         <!-- Підпишіться на розсилку -->
         <div class="subscription">
           <p class="subscription__text">Підпишіться на розсилку</p>

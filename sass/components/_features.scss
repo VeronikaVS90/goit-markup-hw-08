@@ -1,4 +1,4 @@
-.benefits {
+.features {
     @extend %section;
 
     @media screen and(min-width:1200px) {
@@ -40,8 +40,7 @@
         }
     }
 
-    &__icons-container {
-        // width: 100%;
+    &__icon-thumb {
         display: flex;
         background-color: $contentBackground;
         border-radius: 4px;
