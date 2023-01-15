@@ -882,9 +882,10 @@ ul {
 }
 @media screen and (min-width: 768px) {
   .logo--footer {
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 28px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 0;
   }
 }
 @media screen and (min-width: 1200px) {
