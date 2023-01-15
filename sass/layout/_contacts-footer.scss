@@ -33,20 +33,26 @@
         color: $contrastColor;
         text-decoration: none;
         transition: color 250ms $transitionCubic;
-        margin-bottom: 12px;
     }
 
-    &__item {
+    &__contact {
         display: inline-block;
         color: $addressItemColor;
         text-decoration: none;
         transition: color 250ms $transitionCubic;
-        margin-bottom: 12px;
         text-align: start;
 
         &:hover,
         &:focus {
             color: $accentColor;
         }
+    }
+
+    &__item {
+        margin-bottom: 12px;
+
+        &:last-child {
+                margin-bottom: 0;
+            }
     }
 }

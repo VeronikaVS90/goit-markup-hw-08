@@ -21,6 +21,10 @@
     &__item {
         width: 210px;
 
+        @media screen and (min-width: 768px) {
+            width: 226px;
+        }
+
         @media screen and (min-width:1200px) {
             width: 170px;
         }

@@ -24,7 +24,7 @@
         }
     }
 
-    @media screen and (min-width:577px) {
+    @media screen and (min-width: 481px) {
         max-width: 768px;
         padding: 118px 60px;
         background-image: linear-gradient(to right,
@@ -45,10 +45,11 @@
         }
     }
 
-    @media screen and (min-width:961px) {
-        max-width: 1600px;
-        min-height: 600px;
-        padding: 200px 0;
+    @media screen and (min-width: 769px) {
+        // max-width: 1600px;
+        // min-height: 600px;
+        // padding: 200px 0;
+        max-width: 1199px;
         background-image: linear-gradient(to right,
                 rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)),
@@ -65,6 +66,12 @@
                     url('../images/desktop/hero-deskimg@2x.jpg');
             }
         }
+    }
+
+    @media screen and (min-width: 1200px) {
+        max-width: 1600px;
+            min-height: 600px;
+            padding: 200px 0;
     }
 
     &__title {
